@@ -1,0 +1,29 @@
+$message-box: blue;
+
+body,html {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+.container{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  height: 100vh;
+}
+
+.messageBox{
+  width: 100px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $message-box;
+  color: $message-box;
+  margin: 10px;
+}
